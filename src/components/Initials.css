@@ -1,0 +1,12 @@
+.initials {
+    border: 0.5px solid rgba(255, 255, 255, 0.4);
+    border-radius: 1rem;
+    padding: 0.7rem;
+}
+
+.initials p {
+    /* margin-top: 4rem; */
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 1.1rem;
+}

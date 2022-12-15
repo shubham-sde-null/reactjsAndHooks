@@ -1,0 +1,17 @@
+.reactFront {
+    margin-bottom: 0.2rem;
+}
+
+.reactFront h1 {
+    margin-bottom: 0.3rem;
+}
+
+.reactFront p {
+    margin-bottom: 0.3rem;
+}
+
+.reactFront h2 {
+    text-decoration: 0.5px solid white underline;
+    text-underline-offset: 4px;
+    margin-bottom: 0.4rem;
+}

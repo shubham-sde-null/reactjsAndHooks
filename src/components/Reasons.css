@@ -1,0 +1,8 @@
+.one .design {
+    color: #61dafb;
+}
+
+.one h3 {
+    text-decoration: 1.5px solid var(--logoColor) underline;
+    text-underline-offset: 6px;
+}

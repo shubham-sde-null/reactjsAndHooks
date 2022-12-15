@@ -1,0 +1,21 @@
+/* .accContainer {
+    background-color: var(--color-bg-night);
+    background-color: rebeccapurple;
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+} */
+
+#accContainer {
+    background-color: var(--color-bg-night);
+    border: 0.5px solid rgba(255, 255, 255, 0.404);
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#accContainer .accordionTitle {
+    color: var(--color-light);
+}
+
+#accContainer .accordion {
+    color: var(--color-light);
+    margin-bottom: 0.4rem;
+}
