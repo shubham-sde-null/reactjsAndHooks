@@ -6,7 +6,7 @@ import reasons from "../context/CompleteData.js";
 // console.log("the data is", reasons);
 function WReactFE() {
   return (
-    <section>
+    <section id="whyReact">
       <div className="container reactFront">
         <h1>Why React JS For FrontEnd?</h1>
         <p>

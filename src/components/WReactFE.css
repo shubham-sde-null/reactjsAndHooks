@@ -3,7 +3,13 @@
 }
 
 .reactFront h1 {
-    margin-bottom: 0.3rem;
+    width: fit-content;
+    border: 0.5px solid #61dafb;
+    border-radius: 1.5rem;
+    padding: 0.2rem 1.3rem;
+    backdrop-filter: blur(15px);
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
 }
 
 .reactFront p {

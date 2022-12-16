@@ -24,6 +24,8 @@
     --bwhite: 1px solid white;
     --navBorder: 0.5px solid #3498db;
     --logoColor: #61dafb;
+    --borderGrey: rgb(210, 218, 226, 0.3);
+    --noteColor: rgb(255, 63, 52);
     --container-width-lg: 80%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
@@ -74,6 +76,10 @@ h1 {
 
 h2 {
     font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.1rem;
 }
 
 

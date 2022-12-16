@@ -21,11 +21,16 @@ function NavBar() {
       <a href="#whatIsReact" className="whatIsReact">
         What is React?
       </a>
-      <a href="#home">
+      <a href="#whyReact">
         {windowSize < 600 ? "Why React JS?" : "Why React JS For FrontEnd?"}{" "}
       </a>
-      <a href="#hooks">React Hooks</a>
-      <a href="#hooks" className="navbarGit">
+      <a href="#reactHooks">React Hooks</a>
+      <a
+        href="https://github.com/shubham-sde-null/reactjsAndHooks"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="navbarGit"
+      >
         {windowSize < 600 ? (
           <>
             <AiFillGithub />

@@ -11,7 +11,7 @@ import {
 function WReact() {
   return (
     <section id="whatIsReact">
-      <div className="container">
+      <div className="container whyReact">
         <h1>What is React JS?</h1>
         <p>
           React JS is a{" "}

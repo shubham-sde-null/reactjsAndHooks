@@ -1,0 +1,30 @@
+.hooksBasics h2 {
+    text-decoration: 0.5px white underline;
+    text-underline-offset: 5px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.hooksBasics h1 {
+    /* background-color: #61dafb; */
+    width: fit-content;
+    border: 0.5px solid #61dafb;
+    border-radius: 1.5rem;
+    padding: 0.2rem 1.3rem;
+    backdrop-filter: blur(15px);
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+    /* color: black; */
+}
+
+.hooksBasics h3 {
+    border: 0.5px solid var(--logoColor);
+    width: 17rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 0 0.7rem;
+}
+
+.hooksBasics .design {
+    color: #61dafb;
+}
