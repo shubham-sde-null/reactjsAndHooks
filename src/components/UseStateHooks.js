@@ -12,25 +12,11 @@ function UseStateHooks() {
         encapsulate local state in a functional component.
       </p>
       <p>
-        <span
-          style={{ color: "#26de81", fontWeight: "500", fontSize: "1.1rem" }}
-        >
-          Syntax:
-        </span>{" "}
-        The first element is the initial state and the second one is a function
-        that is used for updating the state.
+        <span className="syntax">Syntax:</span> The first element is the initial
+        state and the second one is a function that is used for updating the
+        state.
       </p>
-      <p
-        style={{
-          color: "#fed330",
-          fontSize: "1.1rem",
-          fontWeight: "500",
-          // border: "0.5px solid white",
-          // width: "fit-content",
-          // borderRadius: "0.7rem",
-          // padding: "0 1rem",
-        }}
-      >
+      <p className="syntaxFormat">
         const [state, setState] = useState(initialstate)
       </p>
       <div className="videoCont">

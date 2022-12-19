@@ -5,6 +5,10 @@ import UseStateHooks from "./UseStateHooks";
 import UseEffectHooks from "./UseEffectHooks";
 import UseReducerHooks from "./UseReducerHooks";
 import UseRefHooks from "./UseRefHooks";
+import UseMemoHooks from "./UseMemoHooks";
+import UseCallbackHooks from "./UseCallbackHooks";
+import UseLayoutHooks from "./UseLayoutHooks";
+import UseImperativeHandleHooks from "./UseImperativeHandleHooks";
 function ReactHooks() {
   return (
     <section id="reactHooks">
@@ -14,6 +18,10 @@ function ReactHooks() {
         <UseEffectHooks />
         <UseReducerHooks />
         <UseRefHooks />
+        <UseMemoHooks />
+        <UseCallbackHooks />
+        <UseLayoutHooks />
+        <UseImperativeHandleHooks />
       </div>
     </section>
   );

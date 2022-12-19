@@ -23,27 +23,11 @@ function UseEffectHooks() {
         DOM, and timers.
       </p>
       <p>
-        <span
-          style={{ color: "#26de81", fontWeight: "500", fontSize: "1.1rem" }}
-        >
-          Syntax:
-        </span>{" "}
-        useEffect accepts two arguments. The first argument is a function and
-        the second argument is a dependency array which is optional.
+        <span className="syntax">Syntax:</span> useEffect accepts two arguments.
+        The first argument is a function and the second argument is a dependency
+        array which is optional.
       </p>
-      <p
-        style={{
-          color: "#fed330",
-          fontSize: "1.1rem",
-          fontWeight: "500",
-          // border: "0.5px solid white",
-          // width: "fit-content",
-          // borderRadius: "0.7rem",
-          // padding: "0 1rem",
-        }}
-      >
-        useEffect(function, [])
-      </p>
+      <p className="syntaxFormat">useEffect(function, [])</p>
       <Accordion id="accContainer">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{ color: "#f39c12" }} />}

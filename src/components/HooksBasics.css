@@ -28,3 +28,23 @@
 .hooksBasics .design {
     color: #61dafb;
 }
+
+@media screen and (max-width: 600px) {
+    .hooksBasics {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hooksBasics h2 {
+        align-self: flex-start;
+    }
+    .hooksBasics h3 {
+        align-self: flex-start;
+        border: 0.5px solid var(--logoColor);
+        width: 12rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        padding: 0 0.4rem;
+    }
+}

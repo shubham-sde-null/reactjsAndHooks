@@ -61,3 +61,13 @@
     text-decoration: 0.7px solid rgb(255, 255, 255) underline;
     text-underline-offset: 6px;
 }
+
+@media screen and (max-width: 600px) {
+    .reactHooks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+}

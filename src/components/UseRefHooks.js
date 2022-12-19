@@ -17,28 +17,11 @@ function UseRefHooks() {
         when updated.
       </p>
       <p>
-        <span
-          style={{ color: "#26de81", fontWeight: "500", fontSize: "1.1rem" }}
-        >
-          Syntax:
-        </span>{" "}
-        The useRef returns a mutable reference object. This object has a
-        property called ".current".
+        <span className="syntax">Syntax:</span> The useRef returns a mutable
+        reference object. This object has a property called ".current".
       </p>
-      <p
-        style={{
-          color: "#fed330",
-          fontSize: "1.1rem",
-          fontWeight: "500",
-          // border: "0.5px solid white",
-          // width: "fit-content",
-          // borderRadius: "0.7rem",
-          // padding: "0 1rem",
-        }}
-      >
-        const refContainer=useRef(initialValue)
-      </p>
-      <p className="example">
+      <p className="syntaxFormat">const refContainer=useRef(initialValue)</p>
+      {/* <p className="example">
         <span
           style={{
             textDecoration: "white underline",
@@ -52,7 +35,7 @@ function UseRefHooks() {
         will hide the text and by clicking the button again, it will show the
         text again. This example will be done using both useState and useReducer
         hook.
-      </p>
+      </p> */}
       <div className="videoCont">
         <video
           src={useRef1}
@@ -63,10 +46,10 @@ function UseRefHooks() {
         ></video>
         <div className="desc">
           <p>
-            Here in this example, I have used the useState hook to implement our
-            logic, when I am clicking on the button then two methods are called
-            setCount and SetShowText, and both of them are changing the states
-            respectively.
+            Here in this example I have stored the reference of the dom element
+            input tag in the inputRef variable. Now I am using the current
+            property provided by useRef to bring the input field in focus once I
+            clicked on the change name button.
           </p>
         </div>
       </div>

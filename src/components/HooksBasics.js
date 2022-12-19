@@ -37,7 +37,7 @@ function HooksBasics() {
         top level of a component.
       </p>
 
-      <p>
+      <p style={{ alignSelf: "flex-start" }}>
         <span className="design">*&nbsp;</span>Hooks cannot be conditional
       </p>
       <h2>Most Commonly Used React Hooks Are:</h2>
@@ -66,10 +66,10 @@ function HooksBasics() {
       </h3>
       <h3>
         {" "}
-        <a href="#useState">7)UseLayoutEffect</a>
+        <a href="#useLayout">7)UseLayoutEffect</a>
       </h3>
       <h3>
-        <a href="#useState">8)UseImperativeHandle</a>
+        <a href="#useImperativeHandle">8)UseImperativeHandle</a>
       </h3>
     </div>
   );

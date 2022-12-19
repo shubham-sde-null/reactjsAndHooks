@@ -21,26 +21,10 @@ function UseReducerHooks() {
         dispatch method.
       </p>
       <p>
-        <span
-          style={{ color: "#26de81", fontWeight: "500", fontSize: "1.1rem" }}
-        >
-          Syntax:
-        </span>{" "}
-        The useReducer Hook accepts two arguments.
+        <span className="syntax">Syntax:</span> The useReducer Hook accepts two
+        arguments.
       </p>
-      <p
-        style={{
-          color: "#fed330",
-          fontSize: "1.1rem",
-          fontWeight: "500",
-          // border: "0.5px solid white",
-          // width: "fit-content",
-          // borderRadius: "0.7rem",
-          // padding: "0 1rem",
-        }}
-      >
-        useReducer(reducer function, initialState)
-      </p>
+      <p className="syntaxFormat">useReducer(reducer function, initialState)</p>
       <Accordion id="accContainer">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{ color: "#f39c12" }} />}

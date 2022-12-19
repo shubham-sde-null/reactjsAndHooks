@@ -1,0 +1,103 @@
+.useImperativeHandleHooks h2 {
+    text-decoration: 0.5px white underline;
+    text-underline-offset: 5px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.useImperativeHandleHooks h1 {
+    /* background-color: #61dafb; */
+    width: fit-content;
+    border: 0.5px solid #61dafb;
+    border-radius: 1.5rem;
+    padding: 0.2rem 1.3rem;
+    backdrop-filter: blur(15px);
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+    /* color: black; */
+}
+
+.useImperativeHandleHooks .design {
+    color: #61dafb;
+}
+
+.useImperativeHandleHooks h3 {
+    border: 0.5px solid var(--logoColor);
+    width: 17rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 0 0.7rem;
+}
+
+.useImperativeHandleHooks .videoCont {
+    border: 1px solid var(--borderGrey);
+    border-radius: 1rem;
+    padding: 1rem 0rem;
+    display: flex;
+    width: 100%;
+    margin: 0.5rem 0rem;
+}
+
+.useImperativeHandleHooks .videoPlayer {
+    /* border: 1px solid yellow; */
+    width: 50%;
+}
+
+.useImperativeHandleHooks .desc {
+    padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid green; */
+    width: 50%;
+}
+
+.useImperativeHandleHooks .Note {
+    font-size: 1.3rem;
+    color: var(--noteColor);
+    /* color: black; */
+    font-weight: 600;
+    /* background-color: var(--noteColor); */
+    text-decoration: 0.7px solid rgb(255, 255, 255) underline;
+    text-underline-offset: 6px;
+}
+
+.useImperativeHandleHooks .example {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    color: rgb(15, 188, 249);
+    font-weight: 500;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .useImperativeHandleHooks .videoCont {
+        border: 1px solid var(--borderGrey);
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+        /* padding: 1rem 0rem; */
+        display: flex;
+        width: 100%;
+    }
+    .videoCont {
+        flex-direction: column;
+    }
+    .useImperativeHandleHooks .videoPlayer {
+        /* border: 1px solid yellow; */
+        width: 95%;
+        margin-bottom: 0.7rem;
+    }
+    .useImperativeHandleHooks .desc {
+        width: 95%;
+    }
+    .useImperativeHandleHooks .Note {
+        font-size: 0.8rem;
+        color: var(--noteColor);
+        /* color: black; */
+        font-weight: 600;
+        /* background-color: var(--noteColor); */
+        text-decoration: 0.7px solid rgb(255, 255, 255) underline;
+        text-underline-offset: 6px;
+    }
+}

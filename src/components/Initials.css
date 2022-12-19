@@ -2,6 +2,15 @@
     border: 0.5px solid rgba(255, 255, 255, 0.4);
     border-radius: 1rem;
     padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.initials img {
+    width: 10%;
+    border-radius: 50%;
+    object-position: 0px -1px;
 }
 
 .initials p {
@@ -9,4 +18,35 @@
     /* border: 2px solid red; */
     text-align: center;
     font-size: 1.1rem;
+}
+
+
+/* media query for small srceen  */
+
+@media screen and (max-width: 600px) {
+    .initials {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid orange; */
+    }
+    .initials img {
+        width: 15%;
+        border-radius: 50%;
+        object-position: 0px -1px;
+    }
+    #start {
+        /* border: 2px solid green; */
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .initials {
+        margin-top: 4rem;
+    }
+    .initials p {
+        font-size: 1rem;
+    }
 }

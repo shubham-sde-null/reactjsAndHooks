@@ -24,7 +24,7 @@ function WReact() {
           </span>{" "}
           used in web development to build interactive elements on websites.
         </p>
-        <Accordion id="accContainer">
+        <Accordion id="accContainer" defaultExpanded={true}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{ color: "#f39c12" }} />}
           >
@@ -41,7 +41,7 @@ function WReact() {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion id="accContainer" defaultExpanded={true}>
+        <Accordion id="accContainer">
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{ color: "#ff3838" }} />}
           >

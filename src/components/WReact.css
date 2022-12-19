@@ -29,3 +29,21 @@
     background: rgba(0, 0, 0, 0.2);
     margin-bottom: 1rem;
 }
+
+
+/* media query for small srceen  */
+
+@media screen and (max-width: 600px) {
+    .whyReact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #accContainer .accordionTitle {
+        font-size: 0.9rem;
+    }
+    #accContainer .accordion {
+        font-size: 0.8rem;
+    }
+}

@@ -69,3 +69,35 @@
     font-weight: 500;
     font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+    .useReducerHooks .videoCont {
+        border: 1px solid var(--borderGrey);
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+        /* padding: 1rem 0rem; */
+        display: flex;
+        width: 100%;
+    }
+    .videoCont {
+        flex-direction: column;
+    }
+    .useReducerHooks .videoPlayer {
+        /* border: 1px solid yellow; */
+        width: 95%;
+        margin-bottom: 0.7rem;
+    }
+    .useReducerHooks .desc {
+        width: 95%;
+    }
+    .useReducerHooks .Note {
+        font-size: 1rem;
+        color: var(--noteColor);
+        /* color: black; */
+        font-weight: 600;
+        /* background-color: var(--noteColor); */
+        text-decoration: 0.7px solid rgb(255, 255, 255) underline;
+        text-underline-offset: 6px;
+    }
+}

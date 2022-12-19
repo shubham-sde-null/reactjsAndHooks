@@ -11,6 +11,7 @@
 
 :root {
     --color-bg-night: #131728;
+    /* --color-bg-night: #222f3e; */
     --color-bg-dark: #07080e;
     /* --color-bg-dark: black; */
     --color-bg-day: #e2dcc8;
@@ -27,7 +28,7 @@
     --borderGrey: rgb(210, 218, 226, 0.3);
     --noteColor: rgb(255, 63, 52);
     --container-width-lg: 80%;
-    --container-width-md: 86%;
+    --container-width-md: 90%;
     --container-width-sm: 90%;
 }
 
@@ -82,6 +83,28 @@ h3 {
     font-size: 1.1rem;
 }
 
+.syntax {
+    color: #26de81;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.syntaxFormat {
+    color: #fed330;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.Note {
+    font-size: 1.3rem;
+    color: var(--noteColor);
+    /* color: black; */
+    font-weight: 600;
+    /* background-color: var(--noteColor); */
+    text-decoration: 0.7px solid rgb(255, 255, 255) underline;
+    text-underline-offset: 6px;
+}
+
 
 /* media queries  */
 
@@ -94,7 +117,60 @@ h3 {
     }
 }
 
+@media screen and (max-width: 900px) {
+    .syntax {
+        color: #26de81;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .syntaxFormat {
+        color: #fed330;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 1.7rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .container {
+        width: var(--container-width-md);
+    }
+    section {
+        margin-top: 1.5rem;
+    }
+}
+
 @media screen and (max-width: 600px) {
+    .syntax {
+        color: #26de81;
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+    .syntaxFormat {
+        color: #fed330;
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+    h1 {
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 0.9rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
     .container {
         width: var(--container-width-sm);
     }
