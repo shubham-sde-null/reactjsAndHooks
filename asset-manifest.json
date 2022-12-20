@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/reactjsAndHooks/static/css/main.f0585690.css",
+    "main.js": "/reactjsAndHooks/static/js/main.556bcf8b.js",
+    "static/js/787.3f4d7623.chunk.js": "/reactjsAndHooks/static/js/787.3f4d7623.chunk.js",
+    "static/media/uselayout1.mp4": "/reactjsAndHooks/static/media/uselayout1.604a9f9e329bb42e2ee4.mp4",
+    "static/media/usememo1.mp4": "/reactjsAndHooks/static/media/usememo1.5d92d6204839edcb77a3.mp4",
+    "static/media/usecallback2.mp4": "/reactjsAndHooks/static/media/usecallback2.4dc9d60fd92ca1478b1c.mp4",
+    "static/media/usecallback1.mp4": "/reactjsAndHooks/static/media/usecallback1.8b99a20565f5ff7f816e.mp4",
+    "static/media/useref1.mp4": "/reactjsAndHooks/static/media/useref1.395624aa2ffa51d8bc88.mp4",
+    "static/media/useeffect2.mp4": "/reactjsAndHooks/static/media/useeffect2.05db731b59da3fdf2eb0.mp4",
+    "static/media/usereducer1.mp4": "/reactjsAndHooks/static/media/usereducer1.f0cef5cbf8be3fdc710d.mp4",
+    "static/media/usememo2.mp4": "/reactjsAndHooks/static/media/usememo2.d226b60aaf4b6ae2706e.mp4",
+    "static/media/useimperative2.mp4": "/reactjsAndHooks/static/media/useimperative2.d9b82b61b2ad132edacf.mp4",
+    "static/media/useeffect3.mp4": "/reactjsAndHooks/static/media/useeffect3.92de726f52070f3feca7.mp4",
+    "static/media/usestate2.mp4": "/reactjsAndHooks/static/media/usestate2.f186699782ee149d4050.mp4",
+    "static/media/usestate1.mp4": "/reactjsAndHooks/static/media/usestate1.f154b30ccd77815fb399.mp4",
+    "static/media/usereducer2.mp4": "/reactjsAndHooks/static/media/usereducer2.966f189b850445b77da2.mp4",
+    "static/media/useeffect1.mp4": "/reactjsAndHooks/static/media/useeffect1.6f091abbfb4bdbfb692e.mp4",
+    "static/media/useimperative1.mp4": "/reactjsAndHooks/static/media/useimperative1.8c5653310d63d1374f78.mp4",
+    "static/media/shubhammain.png": "/reactjsAndHooks/static/media/shubhammain.66b262a3ba6e70b43ec1.png",
+    "index.html": "/reactjsAndHooks/index.html",
+    "main.f0585690.css.map": "/reactjsAndHooks/static/css/main.f0585690.css.map",
+    "main.556bcf8b.js.map": "/reactjsAndHooks/static/js/main.556bcf8b.js.map",
+    "787.3f4d7623.chunk.js.map": "/reactjsAndHooks/static/js/787.3f4d7623.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0585690.css",
+    "static/js/main.556bcf8b.js"
+  ]
+}
