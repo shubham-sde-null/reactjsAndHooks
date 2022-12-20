@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactjsAndHooks/static/css/main.f0585690.css",
-    "main.js": "/reactjsAndHooks/static/js/main.1081ffab.js",
+    "main.css": "/reactjsAndHooks/static/css/main.ff49ae9e.css",
+    "main.js": "/reactjsAndHooks/static/js/main.556bcf8b.js",
     "static/js/787.3f4d7623.chunk.js": "/reactjsAndHooks/static/js/787.3f4d7623.chunk.js",
     "static/media/uselayout1.mp4": "/reactjsAndHooks/static/media/uselayout1.604a9f9e329bb42e2ee4.mp4",
     "static/media/usememo1.mp4": "/reactjsAndHooks/static/media/usememo1.5d92d6204839edcb77a3.mp4",
@@ -20,12 +20,12 @@
     "static/media/useimperative1.mp4": "/reactjsAndHooks/static/media/useimperative1.8c5653310d63d1374f78.mp4",
     "static/media/shubhammain.png": "/reactjsAndHooks/static/media/shubhammain.66b262a3ba6e70b43ec1.png",
     "index.html": "/reactjsAndHooks/index.html",
-    "main.f0585690.css.map": "/reactjsAndHooks/static/css/main.f0585690.css.map",
-    "main.1081ffab.js.map": "/reactjsAndHooks/static/js/main.1081ffab.js.map",
+    "main.ff49ae9e.css.map": "/reactjsAndHooks/static/css/main.ff49ae9e.css.map",
+    "main.556bcf8b.js.map": "/reactjsAndHooks/static/js/main.556bcf8b.js.map",
     "787.3f4d7623.chunk.js.map": "/reactjsAndHooks/static/js/787.3f4d7623.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0585690.css",
-    "static/js/main.1081ffab.js"
+    "static/css/main.ff49ae9e.css",
+    "static/js/main.556bcf8b.js"
   ]
 }
